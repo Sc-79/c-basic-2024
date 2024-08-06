@@ -17,7 +17,7 @@ int main()
     //    pirnt any variable using format specifier
     printf("you are %d years old\n", age);
     printf("your gpa is %f\n", gpa);
-    printf("your grade is %f\n", grade);
+    printf("your grade is %c\n", grade);
     printf("your name is %s\n", name);
 
     return 0;
