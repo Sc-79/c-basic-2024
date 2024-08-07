@@ -9,7 +9,7 @@ int main(){
     // %f = float
     // %lf = double
     // %.1 = float with 1 decimal
-    // %1 = minimun 1 character
+    // %1 = minimum 1 character
     // %- = left Align
 
 
@@ -22,7 +22,7 @@ int main(){
     float c = 10.5; // float %f
     bool e = true;  // boolean %d
     float d = 3.141592 ; // float %f 
-// character printing %C fromat specifier using
+// character printing %C format specifier using
 printf("%c\n",a);
 printf("%s\n",p);
 printf("%f\n",c);
@@ -35,10 +35,14 @@ float item3 = 100.99;
 printf("Item 1: $%.2f\n", item1);
 printf("Item 2: $ %.2f", item2);
 printf("Item 3: $%.2f", item3);
+// minimum field width
+printf("Item 1: $%8.2f\n", item1);
+printf("Item 2: $%-8.2f", item2);
+printf("Item 3: $%7.2f", item3);
 
 //   ans = 5.75
 //   ans = 10.00
 //   ans = 100.99
-  
+//  
 
 }
